@@ -54,3 +54,6 @@ Push the branch into the remote repository:
 
 Alternate command for above prompt:
 	git push -u origin <branch Name>
+
+Once the above command executed we can set only “git push” without mention branch name bcoz upstream automatically link the branches in between.
+
