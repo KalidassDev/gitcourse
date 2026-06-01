@@ -38,7 +38,7 @@ Push the staged files into the remote repository:
 	git push origin <BRANCH NAME>
 
 Create new branch:
-	git branch <Branch Name>
+	git branch <Branch Name> -> the branch created from the current checkout branch.
 
 Switch to new branch:
 	git checkout <branchName>
@@ -46,3 +46,11 @@ Switch to new branch:
 Create and switch branch directly:
 	git checkout -b <branch Name>
 
+Create branch from the particular branch if you’re in another branch:
+	git branch <new branch name> <old branch name>
+
+Push the branch into the remote repository:
+	git push —set-upstream origin <branch name>
+
+Alternate command for above prompt:
+	git push -u origin <branch Name>
